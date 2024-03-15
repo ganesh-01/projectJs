@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    font-weight: 800;
+}
+#nav-bar{
+    background-color: lightcyan;
+    padding: 20px 0px 20px 0px;
+}
+#nav-opts{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+#nav-opts li{
+    list-style: none;
+    padding: 5px;
+}
+#mainSec{
+    background-color:lightgray;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+section div h1{
+    background-color: lightgray;
+    padding: 5px;
+    margin: 15px;
+}
+section div{
+    /* background-color: darkblue; */
+    width: 500px;
+    height: 200px;
+    margin: 0px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+section div:nth-last-child(1){
+    margin-top: -100px;
+}
+#mainFields2{
+    /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); */
+    background: linear-gradient(to bottom,#f69d3c, #ffffff, #054900 );
+}
+#mainFields2 h1{
+    background-color: rgba(0,0,0,0);
+}
+section div button{
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid white;
+    color: white;
+    background-color: rgba(0,0,0,0);
+  
+}
+section div button:hover{
+    /* filter: brightness(1%); */
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+    
+}
+
+#displayColor, #displayColor1{
+    text-transform: capitalize;
+    -webkit-text-stroke:1px black;
+}
+#diceDisp{
+    border-radius: 0px;
+    padding: 10px;
+    /* background-color: yellow; */
+    color: red;
+}
